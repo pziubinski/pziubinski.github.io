@@ -1,14 +1,14 @@
-//$(document).ready(function() {
-
-//  var apiRoot = 'https://nameless-headland-16529.herokuapp.com/v1/task/';
-//  var datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
-//  var tasksContainer = $('[data-tasks-container]');
-
 $(document).ready(function() {
-  const apiRoot = 'http://localhost:8080/v1/task/';
-  const trelloApiRoot = 'http://localhost:8080/v1/trello/';
+
+  const apiRoot = 'https://nameless-headland-16529.herokuapp.com/v1/task/';
+  const trelloApiRoot = 'https://nameless-headland-16529.herokuapp.com/v1/trello/'
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
-  const $tasksContainer = $('[data-tasks-container]');
+  const tasksContainer = $('[data-tasks-container]');
+
+  //const apiRoot = 'http://localhost:8080/v1/task/';
+  //const trelloApiRoot = 'http://localhost:8080/v1/trello/';
+  //const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
+  //const $tasksContainer = $('[data-tasks-container]');
 
   var availableBoards = {};
   var availableTasks = {};
