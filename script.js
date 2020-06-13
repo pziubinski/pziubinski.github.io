@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
-  const apiRoot = 'https://nameless-headland-16529.herokuapp.com/v1/task/';
-  const trelloApiRoot = 'https://nameless-headland-16529.herokuapp.com/v1/trello/'
+  const apiRoot = 'https://pacific-bastion-04751.herokuapp.com/v1/task/';
+  const trelloApiRoot = 'https://pacific-bastion-04751.herokuapp.com/v1/trello/'
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const tasksContainer = $('[data-tasks-container]');
 
